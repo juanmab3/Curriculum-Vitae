@@ -1,0 +1,65 @@
+body {margin: 0;
+    padding: 0;
+    background-color:  #2b2d42;}
+    
+.nombre {width: 100%;
+height: 300px;
+background: #6d696a;
+transform: skewY(-5deg);}
+
+
+
+.nombre .contenido {width: 50%;
+height: 50%;
+position: absolute;
+left: 25%;}
+
+.p1 {font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-weight: bolder; font-size: 55px;
+transform: skewY(5deg);
+margin-bottom: 0;}
+
+.p2{font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-size: 25px;transform: skewY(5deg);margin-top: 0;
+margin-bottom: 0;}
+
+.info {width: 90%;
+height: auto;
+background: #2b2d42;
+margin: 5% auto;
+padding: 20px;
+border-radius: 20px;}
+
+.tituloSeccion {color: rgb(250, 250, 250);font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; font-size: xx-large; text-align: center; font-weight: bolder; border-bottom: 4px #a2a7a5 dashed; }
+
+    .tituloInfo {color: floralwhite; font-family:'Hedvig Letters Sans', sans-serif;
+        font-family: 'Poppins', sans-serif; font-weight: bolder; font-size: large; display: inline; margin-right: 20px;}
+
+        .infoInfo{color:  floralwhite; font-family:'Hedvig Letters Sans', sans-serif;
+            font-family: 'Poppins', sans-serif ;
+        font-weight: normal; font-size: large; display: inline;}
+
+        footer {text-align: center; font-family: Arial, Helvetica, sans-serif;
+        background: rgb(248, 182, 3); margin: 10px; padding: 20px; }
+
+        .img{position: absolute;
+        top: 18%;
+    right: 5%;
+width: 180px; height: 180px;
+border-radius: 100%;
+transform: skewY(5deg);
+overflow: hidden;}
+
+.img img {width: 250px;
+height: 320px;
+padding-right: 10px;
+margin-top: -40px; max-zoom: 10;}
+
+div.redes {text-align: center;}
+
+@media (min-width: 768px) {.nombre {font-size: 1px;}}
+@media (min-width: 768px) {.nombre {background-color: rgb(248, 196, 6);}}
+
